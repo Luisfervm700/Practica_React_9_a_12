@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Outlet } from "react-router-dom";
 
 
-// Funcion Principal
+
 export default function Principal () {
     return (
         <>

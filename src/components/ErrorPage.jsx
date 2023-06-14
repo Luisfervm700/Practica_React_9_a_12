@@ -1,6 +1,6 @@
-import {useRouterError} from "/node_modules/.vite/deps/react-router-dom";
+import {useRouterError} from "react-router-dom";
 
-// Funcion ErrorPage
+
 export default function ErrorPage () {
     const error = useRouterError();
     console.error(error);
@@ -15,3 +15,4 @@ export default function ErrorPage () {
         </div>
     );
 }
+

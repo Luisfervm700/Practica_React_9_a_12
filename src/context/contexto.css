@@ -1,0 +1,49 @@
+.App {
+    font-family: sans-serif;
+    }
+
+.Header {
+    background-color: black;
+    padding: 16px;
+    color: white;
+    text-align: right;
+    }
+
+.Body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    }
+
+.Sidebar {
+    height: 200px;
+    width: 200px;
+    padding: 0 16px;
+    }
+
+.Sidebar img {
+    max-width: 100%;
+    margin-bottom: 8px;
+    }
+
+.Sidebar h2 {
+    margin: 0;
+    text-align: left;
+    }
+
+.Sidebar h1 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: gray;
+    text-align: left;
+    }
+
+.Content {
+    height: 200px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
