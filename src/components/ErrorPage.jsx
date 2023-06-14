@@ -1,16 +1,15 @@
-import {useRouterError} from "react-router-dom";
+import { useRouteError } from "react-router-dom";
 
-
-export default function ErrorPage () {
-    const error = useRouterError();
+export default function ErrorPage() {
+    const error = useRouteError();
     console.error(error);
 
     return (
         <div id="error-page">
-            <h1>Oops!</h1>
-            <p>Lo siento, ocurrio un error</p>
+        <h1>Oops!</h1>
+        <p>lo siento, ocurrio un error</p>
             <p>
-                <i>{error.statusText || error.message}</i>
+            <i>{error.statusText || error.message}</i>
             </p>
         </div>
     );
