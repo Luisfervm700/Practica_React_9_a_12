@@ -26,6 +26,11 @@ export function App() {
           element:<ListaTareas/>,
           errorElement:<ErrorPage/>,
         },
+        {
+          path:"consumo/",
+          element:<Apiget/>,
+          errorElement:<ErrorPage/>,
+        },
       ],
     }
   ]);
