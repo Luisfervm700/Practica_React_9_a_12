@@ -7,7 +7,7 @@ import Counter from "./components/Counter";
 import ListaTareas from "./components/ListaTareas";
 import ApiGet from "./components/consumo1";
 import ApiGetFetch from "./components/consumo2";
-import Contexto from "./context/contexto";
+import Contexto from "./context/contexto.jsx";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -31,7 +31,6 @@ export default function App() {
         },
       ],
     },
-
     {
       path: "contexto/",
       element: <contexto/>,
